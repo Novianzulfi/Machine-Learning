@@ -18,7 +18,7 @@ from tensorflow.keras.callbacks import EarlyStopping
 DATASET_DIR = "dataset"   # folder dataset utama
 IMG_SIZE = (224, 224)
 BATCH_SIZE = 32
-EPOCHS = 15
+EPOCHS = 20
 MODEL_DIR = "model"
 
 os.makedirs(MODEL_DIR, exist_ok=True)
